@@ -1,20 +1,14 @@
 body {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
-
-.container-header {
-  display: flex;
-  flex-direction: column;
-  background: #1f2937;
-  max-height: 450px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  font-size: 18px;
-  margin-top: 10px;
+button {
+  background-color: lightskyblue;
+  font-family: Roboto, sans-serif;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80px;
 }
 ul {
   list-style-type: none;
@@ -28,13 +22,40 @@ a {
   text-decoration: none;
   color: #e5e7eb;
 }
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+h1 {
+  margin-bottom: 0px;
+}
+.container-header {
+  display: flex;
+  flex-direction: column;
+  background: #1f2937;
+  height: 300px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.pawLogo {
+  width: 50px;
+  height: 50px;
+  background-color: #1f2937;
+}
+
 .header-left {
   font-size: 24px;
   color: #f9faf8;
-  margin-left: 200px;
+  margin-left: 250px;
 }
 .header-right {
-  margin-right: 200px;
+  margin-right: 280px;
 }
 
 .container-header-content {
@@ -48,22 +69,40 @@ a {
   height: 200px;
   width: 300px;
 }
-img {
-  width: 300px;
+.header-content-img {
+  max-height: 200px;
+  max-width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.container-randomInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.card-img {
   height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-radius: 10px;
   margin: 20px;
 }
-button {
-  background-color: lightskyblue;
-  font-family: Roboto, sans-serif;
-  border-radius: 4px;
-  padding: 5px;
-  width: 80px;
+.container-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 36px;
+  font-style: italic;
+  background-color: #e5e7eb;
 }
-p {
-  margin: 0;
-  margin-bottom: 10px;
+.quote {
+  width: 400px;
 }
-h1 {
-  margin-bottom: 0px;
+.quoted {
+  font-weight: 800;
+  text-align: right;
+  color: #1f2937;
 }
