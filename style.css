@@ -106,3 +106,26 @@ h1 {
   text-align: right;
   color: #1f2937;
 }
+.container-signUp {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.signUp {
+  background-color: #3882f6;
+  width: 920px;
+  height: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+}
+
+.button.signup {
+  color: white;
+  background-color: #3882f6;
+  border: solid;
+}
